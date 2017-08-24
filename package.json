@@ -1,0 +1,14 @@
+{
+  "name": "bart-line",
+  "version": "1.0.0",
+  "description": "bart-line",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && node index.js\" \"cd client && yarn start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
